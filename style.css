@@ -30,7 +30,11 @@ nav span:hover {
     cursor: pointer;
 }
 
+/* .about {
+    background-color: transparent;
+    font-size: 17px;
 
+} */
 
 h1 {
     color: whitesmoke ;
@@ -39,6 +43,9 @@ h1 {
     align-content: center;
     font-size: 40px;
     font-family:'Courier New', Courier, monospace
+    
+
+
 }
 
 ul {
@@ -80,8 +87,21 @@ body{
     font-family:'Courier New', Courier, monospace;
     color: whitesmoke;
 
-
-
-   
     
+}
+
+.about {
+    display: flex;
+    border: 3px solid whitesmoke;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.projects {
+    display: flex;
+    border: 3px solid whitesmoke;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
